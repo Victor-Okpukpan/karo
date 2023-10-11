@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --bg: white;
+}
+
+[data-theme="dark"]{
+  --bg: black
+}
+
+body{
+  background-color: var(--bg);
+}
